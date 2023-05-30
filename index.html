@@ -8,6 +8,9 @@
     <title>Tea House - Tailwind CSS</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 </head>
 
 <body>
@@ -34,7 +37,8 @@
                     <img src="images/banner.png" alt="">
                 </div>
                 <div
-                    class="flex justify-center items-center bg-white rounded absolute bottom-9 left-32 shadow-lg py-4 px-6">
+                    class="flex justify-center items-center bg-white rounded 
+                    absolute bottom-9 left-32 shadow-lg py-4 px-6">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="w-12 h-12 border-none">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -93,7 +97,7 @@
         <!-- green tea section -->
         <section class="mb-28">
             <div class="md:flex justify-center gap-12 p-4">
-                <div class="grid grid-cols-2 gap-4">
+                <div class="grid grid-cols-2 gap-4 mb-4">
                     <div class="bg-gradient-to-r from-[#FF0000]/[0.1] to-[#FF8938]/[0.1] row-auto h-36 rounded-lg">
                         &nbsp;
                     </div>
@@ -131,7 +135,7 @@
         <section class="mb-28">
             <div class="md:flex justify-center items-center md:w-5/6  mx-auto bg-gradient-to-r from-[#FF0000] to-[#FF8938] 
                 p-16 rounded-lg gap-4">
-                <div class="text-white space-y-3">
+                <div class="text-white space-y-3 mb-4">
                     <h1 class="text-4xl font-semibold">Meet Our Super Clients</h1>
                     <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have
                         suffered
@@ -195,28 +199,86 @@
             <div class="md:flex justify-center gap-4 p-2">
                 <div class="border-2 p-5 rounded-lg space-y-2">
                     <img class="w-full" src="images/news-1.png" alt="">
-                        <p class="text-slate-600">Feb 05, 2027</p>
-                        <h4 class="text-xl font-semibold">Collecting 8 points for discount</h4>
-                        <p class="text-slate-600">There are many variations of passages of Lorem Ipsum available.</p>
-                        <h4 class="text-base font-semibold ">Learn More</h4>
+                    <p class="text-slate-600">Feb 05, 2027</p>
+                    <h4 class="text-xl font-semibold">Collecting 8 points for discount</h4>
+                    <p class="text-slate-600">There are many variations of passages of Lorem Ipsum available.</p>
+                    <h4 class="text-base font-semibold ">Learn More</h4>
                 </div>
                 <div class="border-2 p-5 rounded-lg space-y-2">
                     <img class="w-full" src="images/news-2.png" alt="">
-                        <p class="text-slate-600">Feb 05, 2027</p>
-                        <h4 class="text-xl font-semibold">Collecting 8 points for discount</h4>
-                        <p class="text-slate-600">There are many variations of passages of Lorem Ipsum available.</p>
-                        <h4 class="text-base font-semibold ">Learn More</h4>
+                    <p class="text-slate-600">Feb 05, 2027</p>
+                    <h4 class="text-xl font-semibold">Collecting 8 points for discount</h4>
+                    <p class="text-slate-600">There are many variations of passages of Lorem Ipsum available.</p>
+                    <h4 class="text-base font-semibold ">Learn More</h4>
                 </div>
                 <div class="border-2 p-5 rounded-lg space-y-2">
                     <img class="w-full" src="images/news-3.png" alt="">
-                        <p class="text-slate-600">Feb 05, 2027</p>
-                        <h4 class="text-xl font-semibold">Collecting 8 points for discount</h4>
-                        <p class="text-slate-600">There are many variations of passages of Lorem Ipsum available.</p>
-                        <h4 class="text-base font-semibold ">Learn More</h4>
+                    <p class="text-slate-600">Feb 05, 2027</p>
+                    <h4 class="text-xl font-semibold">Collecting 8 points for discount</h4>
+                    <p class="text-slate-600">There are many variations of passages of Lorem Ipsum available.</p>
+                    <h4 class="text-base font-semibold ">Learn More</h4>
                 </div>
             </div>
         </section>
     </main>
+
+    <!-- footer -->
+    <footer class="bg-gradient-to-r from-[#ff0000]/[0.1] to-[#ff8938]/[0.1] py-32 px-4">
+        <div class="container mx-auto md:w-5/6">
+            <div class="flex items-center gap-4 mb-16">
+                <img class="me-auto" src="images/cup.png" alt="">
+                <h2 class="text-xl font-semibold">Ready to get strated?</h2>
+                <button class="border rounded-lg py-4 px-6 bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white">Get
+                    Started
+                </button>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
+                <div class="space-y-2">
+                    <h4 class="text-xl font-semibold">Quick Links</h4>
+                    <p>Home</p>
+                    <p>About Us</p>
+                    <p>Insurance</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="space-y-2">
+                    <h4 class="text-xl font-semibold">Our Service</h4>
+                    <p>Life Insurance</p>
+                    <p>Car Insurance</p>
+                    <p>Health Insurance</p>
+                    <p>House Insurance</p>
+                </div>
+                <div class="space-y-2">
+                    <h4 class="text-xl font-semibold">Help</h4>
+                    <p>FAQs</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="space-y-2">
+                    <h4 class="text-2xl font-semibold">Subscribe to our newsletter</h4>
+                    <div>
+                        <div class="flex items-center mb-2">
+                            <p class="me-auto">Email address</p>
+                            <button
+                                class="border rounded-full p-2 bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>
+                        </div>
+                        </button>
+                        <hr class="border-1 border-black">
+                    </div>
+                    <div class="flex gap-6">
+                        <i class="fa fa-2x fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+            </div>
+            <p class="text-center"><i class="fa fa-copyright" aria-hidden="true"></i> 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
